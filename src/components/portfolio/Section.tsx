@@ -15,7 +15,7 @@ export function Section({
   className?: string;
 }) {
   return (
-    <section id={id} className={`relative scroll-mt-20 py-16 md:py-24 ${className}`}>
+    <section id={id} className={`relative scroll-mt-16 py-12 md:py-20 ${className}`}>
       <div className="mx-auto w-full max-w-6xl px-6">
         {(eyebrow || title) && (
           <motion.div
