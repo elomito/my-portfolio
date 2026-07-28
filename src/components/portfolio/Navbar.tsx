@@ -38,9 +38,9 @@ export function Navbar() {
         >
           <button
             onClick={() => go("home")}
-            className="flex items-center gap-2 text-sm font-semibold text-[var(--navy)]"
+            className="flex items-center gap-2 text-sm font-semibold text-foreground"
           >
-            <span className="grid h-8 w-8 place-items-center rounded-lg bg-[var(--navy)] text-[var(--yellow)]">
+            <span className="grid h-8 w-8 place-items-center rounded-lg bg-[var(--navy)] text-white">
               ⌘
             </span>
             <span className="hidden sm:inline">Portfolio</span>
@@ -53,14 +53,14 @@ export function Navbar() {
                   onClick={() => go(link.id)}
                   className={`relative rounded-full px-4 py-2 text-sm font-medium transition-colors ${
                     active === link.id
-                      ? "text-[var(--navy)]"
-                      : "text-muted-foreground hover:text-[var(--navy)]"
+                      ? "text-foreground"
+                      : "text-muted-foreground hover:text-foreground"
                   }`}
                 >
                   {active === link.id && (
                     <motion.span
                       layoutId="nav-pill"
-                      className="absolute inset-0 -z-10 rounded-full bg-[var(--yellow)]/50"
+                      className="absolute inset-0 -z-10 rounded-full bg-[var(--yellow)]/25"
                       transition={{ type: "spring", stiffness: 380, damping: 30 }}
                     />
                   )}
@@ -101,8 +101,8 @@ export function Navbar() {
                       onClick={() => go(l.id)}
                       className={`w-full rounded-2xl px-4 py-3 text-left text-sm font-medium transition-colors ${
                         active === l.id
-                          ? "bg-[var(--yellow)]/50 text-[var(--navy)]"
-                          : "text-foreground hover:bg-[var(--navy)]/5"
+                          ? "bg-[var(--yellow)]/25 text-foreground"
+                          : "text-foreground hover:bg-white/5"
                       }`}
                     >
                       {l.label}

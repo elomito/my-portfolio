@@ -50,9 +50,9 @@ export function Experience() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.1 * i }}
-                  className="flex flex-col items-start gap-2 rounded-2xl bg-[var(--navy)]/5 p-4 transition-colors hover:bg-[var(--navy)]/10"
+                  className="flex flex-col items-start gap-2 rounded-2xl bg-white/5 p-4 transition-colors hover:bg-white/10"
                 >
-                  <it.icon size={20} className="text-[var(--navy)]" />
+                  <it.icon size={20} className="text-foreground" />
                   <span className="text-sm font-medium text-foreground">
                     {it.label}
                   </span>

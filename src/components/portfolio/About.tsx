@@ -26,7 +26,7 @@ export function About() {
             {["Problem-solving", "Team player", "Curious", "Reliable"].map((t) => (
               <span
                 key={t}
-                className="rounded-full bg-[var(--navy)]/5 px-3 py-1 text-sm text-[var(--navy)]"
+                className="rounded-full bg-white/5 px-3 py-1 text-sm text-foreground"
               >
                 {t}
               </span>

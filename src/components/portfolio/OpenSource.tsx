@@ -76,7 +76,7 @@ export function OpenSource() {
                 whileHover={{ y: -6 }}
                 className="group rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)] transition-all hover:shadow-[var(--shadow-lift)]"
               >
-                <div className="grid h-12 w-12 place-items-center rounded-2xl bg-[var(--navy)] text-[var(--yellow)] transition-transform group-hover:rotate-6">
+                <div className="grid h-12 w-12 place-items-center rounded-2xl bg-[var(--navy)] text-white transition-transform group-hover:rotate-6">
                   <Icon size={22} />
                 </div>
                 <h3 className="mt-5 text-base font-semibold text-foreground">

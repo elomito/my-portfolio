@@ -96,7 +96,7 @@ export function Hero() {
           >
             <button
               onClick={() => go("projects")}
-              className="group inline-flex items-center gap-2 rounded-full bg-[var(--yellow)] px-6 py-3 text-sm font-semibold text-[var(--navy)] shadow-[var(--shadow-glow)] transition-transform hover:scale-[1.03]"
+              className="group inline-flex items-center gap-2 rounded-full bg-[var(--yellow)] px-6 py-3 text-sm font-semibold text-white shadow-[var(--shadow-glow)] transition-transform hover:scale-[1.03]"
             >
               View Projects
               <ArrowRight
@@ -153,14 +153,14 @@ export function Hero() {
             <motion.div
               animate={{ y: [0, -8, 0] }}
               transition={{ duration: 4, repeat: Infinity }}
-              className="absolute bottom-6 left-6 flex items-center gap-3 rounded-2xl bg-white/95 px-4 py-3 text-sm shadow-lg"
+              className="absolute bottom-6 left-6 flex items-center gap-3 rounded-2xl bg-card px-4 py-3 text-sm shadow-lg"
             >
               <span className="grid h-8 w-8 place-items-center rounded-full bg-[var(--green)]/15 text-[var(--green)]">
                 ●
               </span>
               <div className="text-left">
                 <div className="text-xs text-muted-foreground">Currently at</div>
-                <div className="font-semibold text-[var(--navy)]">Zone01 Kisumu</div>
+                <div className="font-semibold text-foreground">Zone01 Kisumu</div>
               </div>
             </motion.div>
           </div>
