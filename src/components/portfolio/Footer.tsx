@@ -8,7 +8,7 @@ export function Footer() {
       <div className="mx-auto grid w-full max-w-6xl grid-cols-1 gap-10 px-6 py-14 md:grid-cols-[1.5fr_1fr_1fr]">
         <div>
           <div className="flex items-center gap-2 text-white">
-            <span className="grid h-8 w-8 place-items-center rounded-lg bg-[var(--yellow)] text-[var(--navy)] font-bold">
+            <span className="grid h-8 w-8 place-items-center rounded-lg bg-[var(--yellow)] text-white font-bold">
               ⌘
             </span>
             <span className="text-sm font-semibold">Portfolio</span>
@@ -44,7 +44,7 @@ export function Footer() {
               <a
                 key={i}
                 href="#"
-                className="grid h-10 w-10 place-items-center rounded-full border border-white/10 transition-colors hover:bg-[var(--yellow)] hover:text-[var(--navy)]"
+                className="grid h-10 w-10 place-items-center rounded-full border border-white/10 transition-colors hover:bg-[var(--yellow)] hover:text-white"
               >
                 <Icon size={16} />
               </a>

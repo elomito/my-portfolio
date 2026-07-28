@@ -59,7 +59,7 @@ export function Loader() {
             animate={{ scale: 1, opacity: 1 }}
             className="flex flex-col items-center gap-4"
           >
-            <span className="grid h-14 w-14 place-items-center rounded-2xl bg-[var(--yellow)] text-2xl font-bold text-[var(--navy)]">
+            <span className="grid h-14 w-14 place-items-center rounded-2xl bg-[var(--yellow)] text-2xl font-bold text-white">
               ⌘
             </span>
             <div className="h-[2px] w-32 overflow-hidden rounded-full bg-white/10">

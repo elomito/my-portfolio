@@ -26,7 +26,7 @@ export function Section({
             className="mb-14 flex flex-col items-start gap-3"
           >
             {eyebrow && (
-              <span className="inline-flex items-center gap-2 rounded-full bg-[var(--navy)]/5 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-[var(--navy)]">
+              <span className="inline-flex items-center gap-2 rounded-full bg-white/5 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-[var(--yellow)]">
                 <span className="h-1.5 w-1.5 rounded-full bg-[var(--green)]" />
                 {eyebrow}
               </span>
