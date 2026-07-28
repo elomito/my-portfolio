@@ -99,14 +99,14 @@
 }
 
 @utility glass {
-  background: color-mix(in oklab, white 70%, transparent);
-  backdrop-filter: blur(12px);
-  border: 1px solid color-mix(in oklab, white 40%, transparent);
+  background: color-mix(in oklab, var(--card) 75%, transparent);
+  backdrop-filter: blur(14px);
+  border: 1px solid color-mix(in oklab, white 10%, transparent);
 }
 
 @utility glass-dark {
-  background: color-mix(in oklab, var(--navy) 60%, transparent);
-  backdrop-filter: blur(12px);
+  background: color-mix(in oklab, var(--navy-deep) 65%, transparent);
+  backdrop-filter: blur(14px);
   border: 1px solid color-mix(in oklab, white 10%, transparent);
 }
 
