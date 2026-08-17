@@ -5,7 +5,6 @@ import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-<<<<<<< Updated upstream
   tanstackStart: {
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
     // nitro/vite builds from this
@@ -15,7 +14,7 @@ export default defineConfig({
     nitro: {
       preset: "netlify"
     }
-=======
+  },
   plugins: [
     tanstackStart({
       // Preserve the custom SSR wrapper that handles catastrophic SSR failures.
@@ -25,6 +24,5 @@ export default defineConfig({
     tailwindcss(),
     netlify(),
   ],
->>>>>>> Stashed changes
 });
 
